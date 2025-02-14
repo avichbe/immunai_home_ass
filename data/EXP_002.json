@@ -1,0 +1,182 @@
+[
+    {
+        "date": "2022-03-05T13:00:00.000Z",
+        "cell_type": {
+            "id": 1,
+            "name": "Neuron",
+            "location": "Brain",
+            "function": "Signal processing"
+        },
+        "environment": {
+            "id": 19,
+            "name": "In vivo",
+            "condition": "Healthy",
+            "medium": "Blood",
+            "temperature": "37°C"
+        },
+        "cell_response": 9.4,
+        "duration": 115,
+        "treatment": "Drug A",
+        "status": "Completed"
+    },
+    {
+        "date": "2022-04-05T13:00:00.000Z",
+        "cell_type": {
+            "id": 1,
+            "name": "Neuron",
+            "location": "Brain",
+            "function": "Signal processing"
+        },
+        "environment": {
+            "id": 19,
+            "name": "In vivo",
+            "condition": "Healthy",
+            "medium": "Blood",
+            "temperature": "37°C"
+        },
+        "cell_response": 6.4,
+        "duration": 115,
+        "treatment": "Drug A",
+        "status": "Completed"
+    },
+    {
+        "date": "2022-06-05T13:00:00.000Z",
+        "cell_type": {
+            "id": 1,
+            "name": "Neuron",
+            "location": "Brain",
+            "function": "Signal processing"
+        },
+        "environment": {
+            "id": 19,
+            "name": "In vivo",
+            "condition": "Healthy",
+            "medium": "Blood",
+            "temperature": "37°C"
+        },
+        "cell_response": 8.1,
+        "duration": 115,
+        "treatment": "Drug A",
+        "status": "Completed"
+    },
+    {
+        "date": "2022-03-10T15:00:00.000Z",
+        "cell_type": {
+            "id": 5,
+            "name": "Osteocyte",
+            "location": "Bone",
+            "function": "Bone maintenance"
+        },
+        "environment": {
+            "id": 20,
+            "name": "In vitro",
+            "condition": "Stressed",
+            "medium": "Culture media",
+            "temperature": "37°C"
+        },
+        "cell_response": 7.3,
+        "duration": 100,
+        "treatment": "Drug H",
+        "status": "Ongoing"
+    },
+    {
+        "date": "2022-03-15T09:30:00.000Z",
+        "cell_type": {
+            "id": 3,
+            "name": "Myocyte",
+            "location": "Muscle",
+            "function": "Muscle contraction"
+        },
+        "environment": {
+            "id": 21,
+            "name": "In vivo",
+            "condition": "Stressed",
+            "medium": "Interstitial fluid",
+            "temperature": "38°C"
+        },
+        "cell_response": 6.8,
+        "duration": 105,
+        "treatment": "Drug I",
+        "status": "Completed"
+    },
+    {
+        "date": "2022-03-20T14:15:00.000Z",
+        "cell_type": {
+            "id": 6,
+            "name": "Keratinocyte",
+            "location": "Skin",
+            "function": "Barrier formation"
+        },
+        "environment": {
+            "id": 22,
+            "name": "In vitro",
+            "condition": "Healthy",
+            "medium": "Saline",
+            "temperature": "36°C"
+        },
+        "cell_response": 8.2,
+        "duration": 110,
+        "treatment": "Drug J",
+        "status": "Ongoing"
+    },
+    {
+        "date": "2022-03-25T12:45:00.000Z",
+        "cell_type": {
+            "id": 2,
+            "name": "Lymphocyte",
+            "location": "Blood",
+            "function": "Immune response"
+        },
+        "environment": {
+            "id": 23,
+            "name": "In vivo",
+            "condition": "Healthy",
+            "medium": "Plasma",
+            "temperature": "37°C"
+        },
+        "cell_response": 7.9,
+        "duration": 120,
+        "treatment": "Drug K",
+        "status": "Completed"
+    },
+    {
+        "date": "2022-01-25T12:45:00.000Z",
+        "cell_type": {
+            "id": 2,
+            "name": "Lymphocyte",
+            "location": "Blood",
+            "function": "Immune response"
+        },
+        "environment": {
+            "id": 23,
+            "name": "In vivo",
+            "condition": "Healthy",
+            "medium": "Plasma",
+            "temperature": "37°C"
+        },
+        "cell_response": 9.5,
+        "duration": 120,
+        "treatment": "Drug K",
+        "status": "Completed"
+    },
+    {
+        "date": "2022-03-30T11:00:00.000Z",
+        "cell_type": {
+            "id": 4,
+            "name": "Hepatocyte",
+            "location": "Liver",
+            "function": "Detoxification"
+        },
+        "environment": {
+            "id": 24,
+            "name": "In vivo",
+            "condition": "Stressed",
+            "medium": "Blood",
+            "temperature": "37°C"
+        },
+        "cell_response": 8.6,
+        "duration": 130,
+        "treatment": "Drug L",
+        "status": "Ongoing"
+    }
+]

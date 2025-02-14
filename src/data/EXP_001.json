@@ -1,0 +1,183 @@
+[
+    {
+        "date": "2022-01-05T10:00:00.000Z",
+        "cell_type": {
+            "id": 1,
+            "name": "Neuron",
+            "location": "Brain",
+            "function": "Signal processing"
+        },
+        "environment": {
+            "id": 11,
+            "name": "In vivo",
+            "condition": "Healthy",
+            "medium": "Blood",
+            "temperature": "37°C"
+        },
+        "cell_response": 9.2,
+        "duration": 110,
+        "treatment": "Drug A",
+        "status": "Completed"
+    },
+    {
+        "date": "2022-01-12T14:00:00.000Z",
+        "cell_type": {
+            "id": 2,
+            "name": "Lymphocyte",
+            "location": "Blood",
+            "function": "Immune response"
+        },
+        "environment": {
+            "id": 12,
+            "name": "In vivo",
+            "condition": "Healthy",
+            "medium": "Blood",
+            "temperature": "37°C"
+        },
+        "cell_response": 6.7,
+        "duration": 90,
+        "treatment": "Drug B",
+        "status": "Completed"
+    },
+    {
+        "date": "2022-01-20T11:00:00.000Z",
+        "cell_type": {
+            "id": 1,
+            "name": "Neuron",
+            "location": "Brain",
+            "function": "Signal processing"
+        },
+        "environment": {
+            "id": 13,
+            "name": "In vitro",
+            "condition": "Stressed",
+            "medium": "Saline",
+            "temperature": "37°C"
+        },
+        "cell_response": 7.1,
+        "duration": 130,
+        "treatment": "Drug C",
+        "status": "Ongoing"
+    },
+    {
+        "date": "2022-02-01T09:00:00.000Z",
+        "cell_type": {
+            "id": 3,
+            "name": "Myocyte",
+            "location": "Muscle",
+            "function": "Muscle contraction"
+        },
+        "environment": {
+            "id": 14,
+            "name": "In vivo",
+            "condition": "Healthy",
+            "medium": "Interstitial fluid",
+            "temperature": "37°C"
+        },
+        "cell_response": 7.8,
+        "duration": 95,
+        "treatment": "Drug D",
+        "status": "Completed"
+    },
+    {
+        "date": "2022-02-10T15:30:00.000Z",
+        "cell_type": {
+            "id": 1,
+            "name": "Neuron",
+            "location": "Brain",
+            "function": "Signal processing"
+        },
+        "environment": {
+            "id": 15,
+            "name": "In vitro",
+            "condition": "Healthy",
+            "medium": "Culture media",
+            "temperature": "35°C"
+        },
+        "cell_response": 6.9,
+        "duration": 120,
+        "treatment": "Drug A",
+        "status": "Completed"
+    },
+    {
+        "date": "2022-02-15T11:15:00.000Z",
+        "cell_type": {
+            "id": 4,
+            "name": "Hepatocyte",
+            "location": "Liver",
+            "function": "Detoxification"
+        },
+        "environment": {
+            "id": 16,
+            "name": "In vivo",
+            "condition": "Stressed",
+            "medium": "Blood",
+            "temperature": "37°C"
+        },
+        "cell_response": 7.2,
+        "duration": 110,
+        "treatment": "Drug E",
+        "status": "Ongoing"
+    },
+    {
+        "date": "2021-02-15T11:15:00.000Z",
+        "cell_type": {
+            "id": 4,
+            "name": "Hepatocyte",
+            "location": "Liver",
+            "function": "Detoxification"
+        },
+        "environment": {
+            "id": 16,
+            "name": "In vivo",
+            "condition": "Stressed",
+            "medium": "Blood",
+            "temperature": "37°C"
+        },
+        "cell_response": 3.2,
+        "duration": 110,
+        "treatment": "Drug E",
+        "status": "Ongoing"
+    },
+    {
+        "date": "2022-02-20T10:45:00.000Z",
+        "cell_type": {
+            "id": 2,
+            "name": "Lymphocyte",
+            "location": "Blood",
+            "function": "Immune response"
+        },
+        "environment": {
+            "id": 17,
+            "name": "In vitro",
+            "condition": "Healthy",
+            "medium": "Plasma",
+            "temperature": "37°C"
+        },
+        "cell_response": 8.0,
+        "duration": 105,
+        "treatment": "Drug F",
+        "status": "Completed"
+    },
+    {
+        "date": "2022-02-28T12:00:00.000Z",
+        "cell_type": {
+            "id": 1,
+            "name": "Neuron",
+            "location": "Brain",
+            "function": "Signal processing"
+        },
+        "environment": {
+            "id": 18,
+            "name": "In vivo",
+            "condition": "Stressed",
+            "medium": "Cerebrospinal fluid",
+            "temperature": "36°C"
+        },
+        "cell_response": 8.5,
+        "duration": 135,
+        "treatment": "Drug G",
+        "status": "Ongoing"
+    }
+]
+

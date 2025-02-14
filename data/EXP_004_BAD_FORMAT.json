@@ -1,0 +1,202 @@
+[
+    {
+        "date": "2022-04-05T10:30:00.000Z",
+        "cell_type": {
+            "id": 7,
+            "name": "Astrocyte",
+            "location": "Brain",
+            "function": "Supportive cells in CNS"
+        },
+        "environment": {
+            "id": 25,
+            "name": "In vivo",
+            "condition": "Stressed",
+            "medium": "Cerebrospinal fluid",
+            "temperature": "37°C"
+        },
+        "duration": 120,
+        "treatment": "Drug M",
+        "status": "Completed"
+    },
+    {
+        "date": "2022-04-10T12:00:00.000Z",
+        "cell_type": {
+            "id": 8,
+            "name": "Red Blood Cell",
+            "location": "Blood",
+            "function": "Oxygen transport"
+        },
+        "environment": {
+            "id": 26,
+            "name": "In vitro",
+            "condition": "Healthy",
+            "medium": "Plasma",
+            "temperature": "37°C"
+        },
+        "cell_response": 9.3,
+        "duration": 100,
+        "treatment": "Drug N",
+        "status": "Ongoing"
+    },
+    {
+        "date": "2022-04-15T14:45:00.000Z",
+        "cell_type": {
+            "id": 9,
+            "name": "Melanocyte",
+            "location": "Skin",
+            "function": "Pigment production"
+        },
+        "environment": {
+            "id": 27,
+            "name": "In vivo",
+            "condition": "Stressed",
+            "medium": "Interstitial fluid",
+            "temperature": "36°C"
+        },
+        "cell_response": 7.8,
+        "duration": 110,
+        "treatment": "Drug O",
+        "status": "Completed"
+    },
+    {
+        "date": "2022-04-20T11:15:00.000Z",
+        "cell_type": {
+            "id": 10,
+            "name": "Pancreatic Beta Cell",
+            "location": "Pancreas",
+            "function": "Insulin production"
+        },
+        "environment": {
+            "id": 28,
+            "name": "In vitro",
+            "condition": "Healthy",
+            "medium": "Culture media",
+            "temperature": "37°C"
+        },
+        "cell_response": 8.4,
+        "duration": 115,
+        "treatment": "Drug P",
+        "status": "Ongoing"
+    },
+    {
+        "date": "2022-04-25T09:45:00.000Z",
+        "cell_type": {
+            "id": 5,
+            "name": "Osteocyte",
+            "location": "Bone",
+            "function": "Bone maintenance"
+        },
+        "environment": {
+            "id": 29,
+            "name": "In vivo",
+            "condition": "Healthy",
+            "medium": "Blood",
+            "temperature": "38°C"
+        },
+        "cell_response": 9.1,
+        "duration": 105,
+        "treatment": "Drug Q",
+        "status": "Completed"
+    },
+    {
+        "date": "2022-04-30T13:30:00.000Z",
+        "cell_type": {
+            "id": 6,
+            "name": "Keratinocyte",
+            "location": "Skin",
+            "function": "Barrier formation"
+        },
+        "environment": {
+            "id": 30,
+            "name": "In vitro",
+            "condition": "Stressed",
+            "medium": "Saline",
+            "temperature": "37°C"
+        },
+        "cell_response": 8.2,
+        "duration": 125,
+        "treatment": "Drug R",
+        "status": "Ongoing"
+    },
+    {
+        "date": "2022-05-05T14:15:00.000Z",
+        "cell_type": {
+            "id": 7,
+            "name": "Astrocyte",
+            "location": "Brain",
+            "function": "Supportive cells in CNS"
+        },
+        "environment": {
+            "id": 31,
+            "name": "In vivo",
+            "condition": "Healthy",
+            "medium": "Cerebrospinal fluid",
+            "temperature": "37°C"
+        },
+        "cell_response": 8.4,
+        "duration": 125,
+        "treatment": "Drug S",
+        "status": "Completed"
+    },
+    {
+        "date": "2022-05-10T15:20:00.000Z",
+        "cell_type": {
+            "id": 8,
+            "name": "Red Blood Cell",
+            "location": "Blood",
+            "function": "Oxygen transport"
+        },
+        "environment": {
+            "id": 32,
+            "name": "In vivo",
+            "condition": "Stressed",
+            "medium": "Blood",
+            "temperature": "37°C"
+        },
+        "cell_response": 9.0,
+        "duration": 100,
+        "treatment": "Drug T",
+        "status": "Ongoing"
+    },
+    {
+        "date": "2022-05-15T13:05:00.000Z",
+        "cell_type": {
+            "id": 9,
+            "name": "Melanocyte",
+            "location": "Skin",
+            "function": "Pigment production"
+        },
+        "environment": {
+            "id": 33,
+            "name": "In vivo",
+            "condition": "Healthy",
+            "medium": "Interstitial fluid",
+            "temperature": "37°C"
+        },
+        "cell_response": 7.9,
+        "duration": 110,
+        "treatment": "Drug U",
+        "status": "Completed"
+    },
+    {
+        "date": "2022-05-20T14:45:00.000Z",
+        "cell_type": {
+            "id": 10,
+            "name": "Pancreatic Beta Cell",
+            "location": "Pancreas",
+            "function": "Insulin production"
+        },
+        "environment": {
+            "id": 34,
+            "name": "In vivo",
+            "condition": "Stressed",
+            "medium": "Blood",
+            "temperature": "37°C"
+        },
+        "cell_response": 8.1,
+        "duration": 115,
+        "treatment": "Drug V",
+        "status": "Ongoing"
+    }
+]
+
