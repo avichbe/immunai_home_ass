@@ -1,0 +1,10 @@
+[PipelineOrchestrator] 2025-02-15 22:15:25,594 - INFO - Starting all pipeline watchers
+[PipelineWatcher] 2025-02-15 22:15:25,596 - INFO - Started watching directory: raw_experiment_data
+[PipelineWatcher] 2025-02-15 22:15:25,597 - INFO - Started watching directory: stage1_data
+[PipelineWatcher] 2025-02-15 22:15:25,598 - INFO - Started watching directory: stage2_data
+[Orchestrator] 2025-02-15 22:15:25,598 - INFO - All pipeline watchers started. Press Ctrl+C to exit.
+[Orchestrator] 2025-02-15 22:15:28,575 - INFO - Shutdown signal received.
+[PipelineOrchestrator] 2025-02-15 22:15:28,575 - INFO - Stopping all pipeline watchers
+[PipelineWatcher] 2025-02-15 22:15:28,576 - INFO - Stopped watching directory: raw_experiment_data
+[PipelineWatcher] 2025-02-15 22:15:28,577 - INFO - Stopped watching directory: stage1_data
+[PipelineWatcher] 2025-02-15 22:15:28,578 - INFO - Stopped watching directory: stage2_data
