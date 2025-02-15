@@ -1,0 +1,47 @@
+[
+  {
+    "cell_response": 9.4,
+    "cell_type": "Neuron",
+    "environment": "In vivo"
+  },
+  {
+    "cell_response": 6.4,
+    "cell_type": "Neuron",
+    "environment": "In vivo"
+  },
+  {
+    "cell_response": 8.1,
+    "cell_type": "Neuron",
+    "environment": "In vivo"
+  },
+  {
+    "cell_response": 7.3,
+    "cell_type": "Osteocyte",
+    "environment": "In vitro"
+  },
+  {
+    "cell_response": 6.8,
+    "cell_type": "Myocyte",
+    "environment": "In vivo"
+  },
+  {
+    "cell_response": 8.2,
+    "cell_type": "Keratinocyte",
+    "environment": "In vitro"
+  },
+  {
+    "cell_response": 7.9,
+    "cell_type": "Lymphocyte",
+    "environment": "In vivo"
+  },
+  {
+    "cell_response": 9.5,
+    "cell_type": "Lymphocyte",
+    "environment": "In vivo"
+  },
+  {
+    "cell_response": 8.6,
+    "cell_type": "Hepatocyte",
+    "environment": "In vivo"
+  }
+]

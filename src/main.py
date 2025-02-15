@@ -6,9 +6,6 @@ import config
 import pipelines_bl as bl 
 
 from pipeline_utils import PipelineOrchestrator
-from pipe1 import extract_trimmed_data
-from pipe2 import validate_hypothesis
-from pipe3 import recalculate_summary_from_dir
 
 # --- Logging Setup ---
 logging.basicConfig(level=config.LOG_LEVEL, format=config.LOG_FORMAT)

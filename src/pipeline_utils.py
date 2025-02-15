@@ -5,7 +5,7 @@ from watchdog.events import FileSystemEventHandler
 
 import config
 
-# --- Generic Event Handler ---
+
 class GenericFileEventHandler(FileSystemEventHandler):
     """
     A generic file event handler that triggers a callback when a new file is created.
@@ -22,7 +22,7 @@ class GenericFileEventHandler(FileSystemEventHandler):
             self.logger.info(f"Detected new file: {event.src_path}")
             self.callback(event.src_path)
 
-# --- Pipeline Watcher ---
+
 class PipelineWatcher:
     """
     Watches a specified directory and calls a provided callback when new files appear.
@@ -45,7 +45,7 @@ class PipelineWatcher:
         self.observer.join()
         self.logger.info(f"Stopped watching directory: {self.directory}")
 
-# --- Pipeline Orchestrator ---
+
 class PipelineOrchestrator:
     """
     Orchestrates the entire pipeline by creating watchers for each stage.

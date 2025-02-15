@@ -3,6 +3,7 @@ import os
 import json
 import logging
 import config
+import pipelines_bl
 from typing import Optional
 
 from pydantic import BaseModel, ValidationError
@@ -40,8 +41,7 @@ def recalculate_summary_from_dir(directory: str) -> str:
         valid_count = 0
         for filename in files:
             path = os.path.join(directory, filename)
-            with open(path, 'r') as f:
-                data = json.load(f)
+            data = pipelines_bl.read_json_data(path)
             try:
                 result = HypothesisResult.model_validate(data)
                 total += 1

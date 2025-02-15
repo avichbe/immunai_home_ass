@@ -14,7 +14,6 @@
             "medium": "Cerebrospinal fluid",
             "temperature": "37°C"
         },
-        "cell_response": 8.9,
         "duration": 120,
         "treatment": "Drug M",
         "status": "Completed"

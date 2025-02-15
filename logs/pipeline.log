@@ -1,10 +1,76 @@
-[PipelineOrchestrator] 2025-02-15 22:15:25,594 - INFO - Starting all pipeline watchers
-[PipelineWatcher] 2025-02-15 22:15:25,596 - INFO - Started watching directory: raw_experiment_data
-[PipelineWatcher] 2025-02-15 22:15:25,597 - INFO - Started watching directory: stage1_data
-[PipelineWatcher] 2025-02-15 22:15:25,598 - INFO - Started watching directory: stage2_data
-[Orchestrator] 2025-02-15 22:15:25,598 - INFO - All pipeline watchers started. Press Ctrl+C to exit.
-[Orchestrator] 2025-02-15 22:15:28,575 - INFO - Shutdown signal received.
-[PipelineOrchestrator] 2025-02-15 22:15:28,575 - INFO - Stopping all pipeline watchers
-[PipelineWatcher] 2025-02-15 22:15:28,576 - INFO - Stopped watching directory: raw_experiment_data
-[PipelineWatcher] 2025-02-15 22:15:28,577 - INFO - Stopped watching directory: stage1_data
-[PipelineWatcher] 2025-02-15 22:15:28,578 - INFO - Stopped watching directory: stage2_data
+[PipelineOrchestrator] 2025-02-16 00:46:09,554 - INFO - Starting all pipeline watchers
+[PipelineWatcher] 2025-02-16 00:46:09,555 - INFO - Started watching directory: raw_experiment_data
+[PipelineWatcher] 2025-02-16 00:46:09,556 - INFO - Started watching directory: stage1_data
+[PipelineWatcher] 2025-02-16 00:46:09,557 - INFO - Started watching directory: stage2_data
+[Orchestrator] 2025-02-16 00:46:09,557 - INFO - All pipeline watchers started. Press Ctrl+C to exit.
+[GenericFileEventHandler] 2025-02-16 00:46:15,291 - INFO - Detected new file: raw_experiment_data\EXP_002.json
+[pipeline_bl] 2025-02-16 00:46:15,307 - INFO - Successfully read JSON data from raw_experiment_data\EXP_002.json succeeded in 0.016 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,307 - INFO - Processing raw file raw_experiment_data\EXP_002.json with 9 entries.
+[GenericFileEventHandler] 2025-02-16 00:46:15,309 - INFO - Detected new file: stage1_data\EXP_002.json
+[pipeline_bl] 2025-02-16 00:46:15,309 - INFO - Successfully wrote JSON data to stage1_data\EXP_002.json succeeded in 0.001 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,309 - INFO - Wrote trimmed data to stage1_data\EXP_002.json.
+[pipeline_bl] 2025-02-16 00:46:15,310 - INFO - Successfully read JSON data from stage1_data\EXP_002.json succeeded in 0.000 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,311 - INFO - Processing stage1 file stage1_data\EXP_002.json with 9 entries.
+[GenericFileEventHandler] 2025-02-16 00:46:15,312 - INFO - Detected new file: stage2_data\EXP_002.json
+[pipeline_bl] 2025-02-16 00:46:15,313 - INFO - Successfully wrote JSON data to stage2_data\EXP_002.json succeeded in 0.001 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,313 - INFO - Processing stage2 file stage2_data\EXP_002.json. Recalculating global summary.
+[pipeline_bl] 2025-02-16 00:46:15,313 - INFO - Wrote hypothesis validation result to stage2_data\EXP_002.json.
+[pipeline_bl] 2025-02-16 00:46:15,316 - INFO - Successfully read JSON data from stage2_data\EXP_002.json succeeded in 0.001 seconds on attempt 1.
+[root] 2025-02-16 00:46:15,317 - INFO - hypothesis is true for: 0.00%
+[GenericFileEventHandler] 2025-02-16 00:46:15,337 - INFO - Detected new file: raw_experiment_data\EXP_003.json
+[pipeline_bl] 2025-02-16 00:46:15,354 - INFO - Successfully read JSON data from raw_experiment_data\EXP_003.json succeeded in 0.015 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,354 - INFO - Processing raw file raw_experiment_data\EXP_003.json with 10 entries.
+[GenericFileEventHandler] 2025-02-16 00:46:15,356 - INFO - Detected new file: stage1_data\EXP_003.json
+[pipeline_bl] 2025-02-16 00:46:15,356 - INFO - Successfully wrote JSON data to stage1_data\EXP_003.json succeeded in 0.001 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,357 - INFO - Wrote trimmed data to stage1_data\EXP_003.json.
+[pipeline_bl] 2025-02-16 00:46:15,358 - INFO - Successfully read JSON data from stage1_data\EXP_003.json succeeded in 0.000 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,358 - INFO - Processing stage1 file stage1_data\EXP_003.json with 10 entries.
+[GenericFileEventHandler] 2025-02-16 00:46:15,359 - INFO - Detected new file: stage2_data\EXP_003.json
+[pipeline_bl] 2025-02-16 00:46:15,359 - INFO - Successfully wrote JSON data to stage2_data\EXP_003.json succeeded in 0.001 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,359 - INFO - Processing stage2 file stage2_data\EXP_003.json. Recalculating global summary.
+[pipeline_bl] 2025-02-16 00:46:15,360 - INFO - Wrote hypothesis validation result to stage2_data\EXP_003.json.
+[pipeline_bl] 2025-02-16 00:46:15,361 - INFO - Successfully read JSON data from stage2_data\EXP_002.json succeeded in 0.000 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,371 - INFO - Successfully read JSON data from stage2_data\EXP_003.json succeeded in 0.010 seconds on attempt 1.
+[root] 2025-02-16 00:46:15,372 - INFO - hypothesis is true for: 0.00%
+[GenericFileEventHandler] 2025-02-16 00:46:15,380 - INFO - Detected new file: raw_experiment_data\EXP_004_BAD_FORMAT.json
+[pipeline_bl] 2025-02-16 00:46:15,381 - INFO - Successfully read JSON data from raw_experiment_data\EXP_004_BAD_FORMAT.json succeeded in 0.001 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,382 - INFO - Processing raw file raw_experiment_data\EXP_004_BAD_FORMAT.json with 10 entries.
+[Step1] 2025-02-16 00:46:15,383 - ERROR - Validation error for entry: 1 validation error for ExperimentEntry
+cell_response
+  Field required [type=missing, input_value={'date': '2022-04-05T10:3..., 'status': 'Completed'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing. Problematic row: {'date': '2022-04-05T10:30:00.000Z', 'cell_type': {'id': 7, 'name': 'Astrocyte', 'location': 'Brain', 'function': 'Supportive cells in CNS'}, 'environment': {'id': 25, 'name': 'In vivo', 'condition': 'Stressed', 'medium': 'Cerebrospinal fluid', 'temperature': '37°C'}, 'duration': 120, 'treatment': 'Drug M', 'status': 'Completed'}. Skipping entry.
+[GenericFileEventHandler] 2025-02-16 00:46:15,385 - INFO - Detected new file: stage1_data\EXP_004_BAD_FORMAT.json
+[pipeline_bl] 2025-02-16 00:46:15,385 - INFO - Successfully wrote JSON data to stage1_data\EXP_004_BAD_FORMAT.json succeeded in 0.001 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,386 - INFO - Wrote trimmed data to stage1_data\EXP_004_BAD_FORMAT.json.
+[pipeline_bl] 2025-02-16 00:46:15,387 - INFO - Successfully read JSON data from stage1_data\EXP_004_BAD_FORMAT.json succeeded in 0.000 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,387 - INFO - Processing stage1 file stage1_data\EXP_004_BAD_FORMAT.json with 9 entries.
+[GenericFileEventHandler] 2025-02-16 00:46:15,389 - INFO - Detected new file: stage2_data\EXP_004_BAD_FORMAT.json
+[pipeline_bl] 2025-02-16 00:46:15,389 - INFO - Successfully wrote JSON data to stage2_data\EXP_004_BAD_FORMAT.json succeeded in 0.001 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,390 - INFO - Processing stage2 file stage2_data\EXP_004_BAD_FORMAT.json. Recalculating global summary.
+[pipeline_bl] 2025-02-16 00:46:15,390 - INFO - Wrote hypothesis validation result to stage2_data\EXP_004_BAD_FORMAT.json.
+[pipeline_bl] 2025-02-16 00:46:15,391 - INFO - Successfully read JSON data from stage2_data\EXP_002.json succeeded in 0.000 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,392 - INFO - Successfully read JSON data from stage2_data\EXP_003.json succeeded in 0.000 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,403 - INFO - Successfully read JSON data from stage2_data\EXP_004_BAD_FORMAT.json succeeded in 0.011 seconds on attempt 1.
+[root] 2025-02-16 00:46:15,404 - INFO - hypothesis is true for: 0.00%
+[GenericFileEventHandler] 2025-02-16 00:46:15,444 - INFO - Detected new file: raw_experiment_data\EXP_001.json
+[pipeline_bl] 2025-02-16 00:46:15,445 - INFO - Successfully read JSON data from raw_experiment_data\EXP_001.json succeeded in 0.001 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,446 - INFO - Processing raw file raw_experiment_data\EXP_001.json with 9 entries.
+[GenericFileEventHandler] 2025-02-16 00:46:15,448 - INFO - Detected new file: stage1_data\EXP_001.json
+[pipeline_bl] 2025-02-16 00:46:15,448 - INFO - Successfully wrote JSON data to stage1_data\EXP_001.json succeeded in 0.001 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,449 - INFO - Wrote trimmed data to stage1_data\EXP_001.json.
+[pipeline_bl] 2025-02-16 00:46:15,450 - INFO - Successfully read JSON data from stage1_data\EXP_001.json succeeded in 0.000 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,450 - INFO - Processing stage1 file stage1_data\EXP_001.json with 9 entries.
+[GenericFileEventHandler] 2025-02-16 00:46:15,451 - INFO - Detected new file: stage2_data\EXP_001.json
+[pipeline_bl] 2025-02-16 00:46:15,451 - INFO - Successfully wrote JSON data to stage2_data\EXP_001.json succeeded in 0.001 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,452 - INFO - Processing stage2 file stage2_data\EXP_001.json. Recalculating global summary.
+[pipeline_bl] 2025-02-16 00:46:15,452 - INFO - Wrote hypothesis validation result to stage2_data\EXP_001.json.
+[pipeline_bl] 2025-02-16 00:46:15,462 - INFO - Successfully read JSON data from stage2_data\EXP_001.json succeeded in 0.010 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,463 - INFO - Successfully read JSON data from stage2_data\EXP_002.json succeeded in 0.000 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,464 - INFO - Successfully read JSON data from stage2_data\EXP_003.json succeeded in 0.000 seconds on attempt 1.
+[pipeline_bl] 2025-02-16 00:46:15,465 - INFO - Successfully read JSON data from stage2_data\EXP_004_BAD_FORMAT.json succeeded in 0.001 seconds on attempt 1.
+[root] 2025-02-16 00:46:15,466 - INFO - hypothesis is true for: 25.00%
+[Orchestrator] 2025-02-16 00:46:43,953 - INFO - Shutdown signal received.
+[PipelineOrchestrator] 2025-02-16 00:46:43,953 - INFO - Stopping all pipeline watchers
+[PipelineWatcher] 2025-02-16 00:46:43,954 - INFO - Stopped watching directory: raw_experiment_data
+[PipelineWatcher] 2025-02-16 00:46:43,955 - INFO - Stopped watching directory: stage1_data
+[PipelineWatcher] 2025-02-16 00:46:43,956 - INFO - Stopped watching directory: stage2_data
