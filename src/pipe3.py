@@ -2,16 +2,14 @@
 import os
 import json
 import logging
-import threading
+import config
 from typing import Optional
 
-from watchdog.observers import Observer
-from watchdog.events import FileSystemEventHandler
 from pydantic import BaseModel, ValidationError
 
-logging.basicConfig(level=logging.INFO, format='[Step3] %(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=config.LOG_LEVEL, format=config.LOG_FORMAT)
 
-# --- Pydantic Models ---
+#region pydantic
 
 class HypothesisDetails(BaseModel):
     num_in_vivo: int
@@ -24,16 +22,13 @@ class HypothesisResult(BaseModel):
     hypothesis_valid: bool
     details: HypothesisDetails
 
-STAGE2_DIR = "stage2_data"
+#endregion
+
+STAGE2_DIR = config.STAGE2_DIR
 
 # --- Helper Function (also used in tests) ---
 
 def recalculate_summary_from_dir(directory: str) -> str:
-    """
-    Read all stage2 JSON files from the given directory, validate their content, and calculate
-    the overall percentage of experiments where the hypothesis was validated.
-    Returns the summary string.
-    """
     try:
         files = [f for f in os.listdir(directory) if f.endswith('.json')]
         if not files:
@@ -48,7 +43,7 @@ def recalculate_summary_from_dir(directory: str) -> str:
             with open(path, 'r') as f:
                 data = json.load(f)
             try:
-                result = HypothesisResult.parse_obj(data)
+                result = HypothesisResult.model_validate(data)
                 total += 1
                 if result.hypothesis_valid:
                     valid_count += 1
@@ -62,31 +57,3 @@ def recalculate_summary_from_dir(directory: str) -> str:
     except Exception as e:
         logging.exception(f"Failed to recalculate summary: {e}")
         return "Error in calculating summary"
-
-# --- Filesystem Event Handler for Step 3 ---
-
-# class Step3Handler(FileSystemEventHandler):
-#     def on_created(self, event):
-#         if event.is_directory:
-#             return
-#         if event.src_path.endswith('.json'):
-#             logging.info(f"New stage2 file detected: {event.src_path}. Recalculating hypothesis summary...")
-#             recalculate_summary_from_dir(STAGE2_DIR)
-
-# # --- Main Function to Watch the Directory ---
-
-# def main():
-#     event_handler = Step3Handler()
-#     observer = Observer()
-#     observer.schedule(event_handler, path=STAGE2_DIR, recursive=False)
-#     observer.start()
-#     logging.info(f"Watching for new files in {STAGE2_DIR} for global summary...")
-#     try:
-#         while True:
-#             threading.Event().wait(1)
-#     except KeyboardInterrupt:
-#         observer.stop()
-#     observer.join()
-
-# if __name__ == "__main__":
-#     main()

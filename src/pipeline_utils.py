@@ -57,7 +57,7 @@ class PipelineOrchestrator:
         self.watcher_stage1 = PipelineWatcher(stage1_dir, process_stage1_callback)
         self.watcher_stage2 = PipelineWatcher(stage2_dir, process_stage2_callback)
 
-    def start_all(self):
+    def run(self):
         self.logger.info("Starting all pipeline watchers")
         self.watcher_raw.start()
         self.watcher_stage1.start()

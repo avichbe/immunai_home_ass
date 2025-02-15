@@ -2,7 +2,7 @@ import os
 import logging
 
 # --- Directories ---
-RAW_EXPERIMENT_DIR = "data"
+RAW_EXPERIMENT_DIR = "raw_experiment_data"
 STAGE1_DIR = "stage1_data"
 STAGE2_DIR = "stage2_data"
 
